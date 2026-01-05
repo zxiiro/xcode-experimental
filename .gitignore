@@ -1,0 +1,52 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore when necessary
+
+## User settings
+xcuserdata/
+
+## Compatibility with older Xcode
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+# Add this if you want to ignore SPM build artifacts
+# (Safe for most tutorial projects)
+.swiftpm/xcode/
+.build/
+
+# macOS system files
+.DS_Store
+*~.nib
+*.swp
+
+# Other common ignores (optional but useful)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
