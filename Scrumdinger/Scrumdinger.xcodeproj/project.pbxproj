@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D205E2A72F0C961400E7F7AF /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = D205E2A62F0C961400E7F7AF /* ThemeKit */; };
+		D205E2AA2F0C96BC00E7F7AF /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = D205E2A92F0C96BC00E7F7AF /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D205E2902F0B2E0100E7F7AF /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D205E2A72F0C961400E7F7AF /* ThemeKit in Frameworks */,
+				D205E2AA2F0C96BC00E7F7AF /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				D205E2A62F0C961400E7F7AF /* ThemeKit */,
+				D205E2A92F0C96BC00E7F7AF /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = D205E2902F0B2E0100E7F7AF /* Scrumdinger.app */;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = D205E2872F0B2E0100E7F7AF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D205E2A82F0C96BC00E7F7AF /* XCLocalSwiftPackageReference "ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D205E2912F0B2E0100E7F7AF /* Products */;
 			projectDirPath = "";
@@ -332,6 +344,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D205E2A82F0C96BC00E7F7AF /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D205E2A62F0C961400E7F7AF /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+		D205E2A92F0C96BC00E7F7AF /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D205E2882F0B2E0100E7F7AF /* Project object */;
 }
